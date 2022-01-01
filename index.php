@@ -3,7 +3,7 @@ session_start();
 
 // db configs
 try {
-  $db = new PDO('mysql:host=productiondbinstace.cufzokfz8zex.us-east-2.rds.amazonaws.com;dbname=test_todo', 'admin', 'Pspl2cnmXFOum3AIKtXc');
+  $db = new PDO('mysql:host=project1dbinstance.cj5erimvwxey.us-east-1.rds.amazonaws.com;dbname=test_todo', 'admin', '7w7fnFs9gN9IPYr6b2ge');
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
   echo $e->getMessage();
